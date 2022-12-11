@@ -17,6 +17,7 @@ button {
   font-size: 16px;
   font-weight: 500;
   transition: 0.2s ease;
+  border: 2px solid transparent;
 }
 
 a {
@@ -27,13 +28,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */
