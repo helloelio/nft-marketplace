@@ -1,0 +1,23 @@
+.purple {
+  background-color: #212121;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #131313;
+  }
+
+  &:active {
+  }
+}
+
+.blue {
+  background-color: #0997ff;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #0e89e0;
+  }
+  &:active {
+    background-color: #0c7bca;
+  }
+}
