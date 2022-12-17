@@ -12,6 +12,16 @@ export default function Home() {
       const {sellers} = res.data;
       console.log(sellers);
     })
+
+    axios.get(`http://localhost:5000/categories`).then(res => {
+      const {sellers} = res.data;
+      console.log(sellers);
+    })
+
+    axios.get(`http://localhost:5000/top`).then(res => {
+      const {sellers} = res.data;
+      console.log(sellers);
+    })
   }, [])
 
   return (
